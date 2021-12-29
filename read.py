@@ -16,3 +16,11 @@ for d in data:
 	tosum = total_sum / len(data)
 print("平均", tosum, "總文字長度") 
 # print(total_sum / len(data))
+
+new = []
+
+for c in data:
+	if len(c) < 100:
+		new.append(c)
+print("一共有", len(new), "筆留言長度小於100")
+print(new[0])

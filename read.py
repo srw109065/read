@@ -24,3 +24,10 @@ for c in data:
 		new.append(c)
 print("一共有", len(new), "筆留言長度小於100")
 print(new[0])
+
+new2 = []
+
+for s in data:
+	if 'good' in s:
+		new2.append(s)
+print(len(new2))
